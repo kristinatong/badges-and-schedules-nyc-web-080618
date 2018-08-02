@@ -13,7 +13,8 @@ end
 def assign_rooms(array)
   badge_array = []
   for i in (0...array.length)
-    badge_array.push("Hello, #{array[i]}!You'll be assigned to room #{i+1}")
+    room = i+1
+    badge_array.push("Hello, #{array[i]}!You'll be assigned to room #{room}")
   end
   badge_array
 end
